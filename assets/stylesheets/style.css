@@ -1,0 +1,7 @@
+.bordered {
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #eb3204 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #eb3204 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to right, #eb3204 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+  }
