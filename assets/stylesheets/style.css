@@ -44,3 +44,6 @@ input#other {
     outline: none;
 }
 
+::selection {
+    background: lightgray;
+}
