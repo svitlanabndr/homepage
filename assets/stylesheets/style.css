@@ -1,5 +1,5 @@
 main {
-    background-image: url("/assets/images/flag.png");
+    background-image: url("./assets/images/flag.png");
     background-repeat: no-repeat;
     background-position: -10% 0;
 }
