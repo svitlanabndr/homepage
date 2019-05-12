@@ -4,4 +4,8 @@
     -webkit-border-image: -webkit-linear-gradient(left, #eb3204 0%, #3a4ed5 100%);
     border-image: linear-gradient(to right, #eb3204 0%, #3a4ed5 100%);
     border-image-slice: 1;
-  }
+}
+
+.fab {
+    font-size: 1.2rem;
+}
