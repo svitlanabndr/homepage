@@ -1,0 +1,49 @@
+main {
+    background-image: url("/assets/images/flag.png");
+    background-repeat: no-repeat;
+    background-position: -10% 0;
+}
+
+.bordered {
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #b41818 0%, #111c64 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #b41818 0%, #111c64 100%);
+    border-image: linear-gradient(to right, #b41818 0%, #111c64 100%);
+    border-image-slice: 1;
+}
+
+.avatar {
+    max-width: 100%;
+    -moz-background-image: -moz-linear-gradient(bottom, #3a4ed5 0%, transparent 80%);
+    -webkit-background-image: -webkit-linear-gradient(bottom, #3a4ed5 0%, transparent 80%);
+    background-image: linear-gradient(to top, #3a4ed5 0%, transparent 80%);
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+}
+
+.gif {
+    width: 50%;
+}
+
+li:hover div:nth-of-type(2) { 
+    -moz-background-image: -moz-linear-gradient(left, #5e71eeb9 0%, transparent 70%);
+    -webkit-background-image: -webkit-linear-gradient(left, #5e71eeb9 0%, transparent 70%);
+    background-image: linear-gradient(to right, #5e71eeb9 0%, transparent 70%);
+}
+li:hover p:nth-of-type(2), li:hover ul { 
+    -moz-background-image: -moz-linear-gradient(left, #ee5e5eb9 0%, transparent 70%);
+    -webkit-background-image: -webkit-linear-gradient(left, #ee5e5eb9 0%, transparent 70%);
+    background-image: linear-gradient(to right, #ee5e5eb9 0%, transparent 70%);
+}
+
+li:hover em{ 
+    font-weight: bold;
+}
+
+input#other {
+    outline: none;
+}
+
+::selection {
+    background: lightgray;
+}
