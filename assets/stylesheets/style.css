@@ -9,3 +9,10 @@
 .fab {
     font-size: 1.2rem;
 }
+
+.avatar {
+    max-width: 100%;
+    background-image: linear-gradient(to top, #3a4ed5 0%, transparent 80%);
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+}
